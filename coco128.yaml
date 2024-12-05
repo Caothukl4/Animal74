@@ -1,0 +1,94 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# COCO128 dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Documentation: https://docs.ultralytics.com/datasets/detect/coco/
+# Example usage: yolo train data=coco128.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── coco128  ← downloads here (7 MB)
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../coco128 # dataset root directory
+train: images/train2017 # train images (relative to 'path') 128 images
+val: images/train2017 # validation images (relative to 'path') 128 images
+#test: images/test2017 # test images (optional, relative to 'path')
+
+# Classes
+names:
+  0: Bachtuoc
+  1: Bao
+  2: Bo
+  3: Bocanhcung
+  4: Bocau
+  5: Borua
+  6: Borung
+  7: Buom
+  8: Buomdem
+  9: Caheo
+  10: Camap
+  11: Cangua
+  12: Cavang
+  13: Cavoi
+  14: Cao
+  15: Chauchau
+  16: Canhcut
+  17: Chimruoi
+  18: Cho
+  19: Chuonchuon
+  20: Chuottui
+  21: Cu
+  22: Cua
+  23: Cuu
+  24: Daibang
+  25: De
+  26: Doi
+  27: Gau
+  28: Gautruc
+  29: Gautui
+  30: Gian
+  31: Hama
+  32: Haicau
+  33: Hamster
+  34: Hau
+  35: Ho
+  36: Honghac
+  37: Khidot
+  38: Linhcau
+  39: Linhduong
+  40: Lon
+  41: Lonrung
+  42: Lua
+  43: Lungmat
+  44: Meo
+  45: Muc
+  46: Muoi
+  47: Nai
+  48: Ngua
+  49: Nguavan
+  50: Nhim
+  51: Nhimgai
+  52: Ong
+  53: Qua
+  54: Raica
+  55: Ran
+  56: Rua
+  57: Ruoi
+  58: Saobien
+  59: Soc
+  60: Soi
+  61: Soidongco
+  62: Sutu
+  63: Sua
+  64: Tegiac
+  65: Thanlan
+  66: Tho
+  67: TinhTinh
+  68: Tomhum
+  69: Vet
+  70: Vit
+  71: Chuot
+  72: Saubuom
+  73: Voi
+
+# Download script/URL (optional)
+download: https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip
