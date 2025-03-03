@@ -89,6 +89,8 @@ names:
   71: Chuot
   72: Saubuom
   73: Voi
+  74: Rua
+  
 
 # Download script/URL (optional)
 download: https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip
